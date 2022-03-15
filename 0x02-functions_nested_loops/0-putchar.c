@@ -1,36 +1,21 @@
-#include "_putchar.h"
+#include "main.h"
+
 /**
- * main - Entry point
+ * main - prints _putchar
  *
- * Return: Always 0 (Success)
+ * Description: prints _putchar
+ *
+ * Return: 0 (Success)
  */
+
 int main(void)
 {
-	char *sh = "_putche#include "_putchar.h"
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-        char *sh = "_putcher";
+	char text[9] = "_putchar";
+	int i = 0;
 
-        while (*sh)
-        {
-                _putchar(*sh);
-                sh++;
-        }
-        _putchar('\n');
-
-        return (0);
-}
-r";
-
-	while (*sh)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(text[i]);
 	}
 	_putchar('\n');
 
